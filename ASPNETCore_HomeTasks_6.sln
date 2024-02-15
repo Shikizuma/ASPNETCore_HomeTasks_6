@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETCore_HomeTasks_6", "ASPNETCore_HomeTasks_6\ASPNETCore_HomeTasks_6.csproj", "{B5795197-F77F-42A1-BEA4-E966A8B9CFE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task2\Task2.csproj", "{9D57E2E2-B7E4-48E7-AC09-BD04BCF16E1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5795197-F77F-42A1-BEA4-E966A8B9CFE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5795197-F77F-42A1-BEA4-E966A8B9CFE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5795197-F77F-42A1-BEA4-E966A8B9CFE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5795197-F77F-42A1-BEA4-E966A8B9CFE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D57E2E2-B7E4-48E7-AC09-BD04BCF16E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D57E2E2-B7E4-48E7-AC09-BD04BCF16E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D57E2E2-B7E4-48E7-AC09-BD04BCF16E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D57E2E2-B7E4-48E7-AC09-BD04BCF16E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5BC9D70-D744-4AFD-B60E-3CAF4A11715F}
+	EndGlobalSection
+EndGlobal

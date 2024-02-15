@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h2>Calculator</h2>
+
+    <form asp-action="Index" method="post">
+        <input type="number" name="number1" step="any" required />
+        <select name="operation">
+            <option value="add">+</option>
+            <option value="subtract">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+        </select>
+        <input type="number" name="number2" step="any" required />
+        <button type="submit">Calculate</button>
+    </form>
+
+    @if (!String.IsNullOrEmpty(ViewBag.Message))
+    {
+        <p>@ViewBag.Message</p>
+    }
+
+    @if (ViewBag.Result != null)
+    {
+        <p>Result: @ViewBag.Result</p>
+    }
+
+</div>
